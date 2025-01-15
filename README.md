@@ -18,15 +18,20 @@ Ensure that you have the following installed:
 
 2. Install the required dependencies:
     ```bash
-    npm install
+    npm i
     ```
 
-3. Seed the database with initial data:
+3. Create a `.env` file in the root of the project and set the required environment variables, including `JWT_SECRET`:
+    ```bash
+    JWT_SECRET=<your_secret_key>
+    ```
+
+4. Seed the database with initial data:
     ```bash
     npm run seed
     ```
 
-4. Start the development server:
+5. Start the development server:
     ```bash
     npm run dev
     ```
